@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="TVA suite">
+<parameter name="app" value="tva" />
+<listeners>
+    <listener class-name="alwaysrunlisteners" />
+    <listener class-name="alwaysrunlisteners"/>
+</listeners>
+<test name="TVA Test">
+    <classes>
+        <class name="apnaTestng" />
+    </classes>
+</test>
+</suite> <!-- Suite -->
