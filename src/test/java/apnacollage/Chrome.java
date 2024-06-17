@@ -21,7 +21,6 @@ public class Chrome {
 
         driver.quit();
 
-        System.out.println("added automation2 branch ");
+        System.out.println("added automation2 branch  hi");
     }
-
 }
