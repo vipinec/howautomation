@@ -20,6 +20,8 @@ public class Chrome {
         driver.get("https://fb.com");
 
         driver.quit();
+
+        System.out.println("added automation2 branch ");
     }
 
 }
