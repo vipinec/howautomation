@@ -21,6 +21,9 @@ public class Chrome {
 
         driver.quit();
         System.out.println("browser closed automation1");
-    }
 
+        System.out.println("browser closed");
+
+        System.out.println("added automation2 branch f hin");
+    }
 }
