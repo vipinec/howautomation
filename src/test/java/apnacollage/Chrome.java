@@ -20,7 +20,7 @@ public class Chrome {
         driver.get("https://fb.com");
 
         driver.quit();
-        System.out.println("browser closed");
+        System.out.println("browser closed automation1");
     }
 
 }
