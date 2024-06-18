@@ -23,6 +23,20 @@
                         <executable>//Library/Java/JavaVirtualMachines/jdk-21.jdk/Content/Home/Contents/Home</executable>
                     </configuration>
                 </plugin>
+
+
+
+    <plugin>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>3.3.2</version>
+      <configuration>
+        <failOnError>false</failOnError>
+      </configuration>
+    </plugin>
+
+
+
+              
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
