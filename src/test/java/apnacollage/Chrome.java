@@ -21,6 +21,7 @@ public class Chrome {
 
         driver.quit();
         System.out.println("browser closed automation1");
+         System.out.println("cicd using commit on gitrepo mai);
 
         System.out.println("browser closed");
 
